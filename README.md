@@ -1,24 +1,18 @@
 # vue-nipple
+Vuejs component wrapper for [yoannmoinet's nipplejs](https://github.com/yoannmoinet/nipplejs)
 
-## Project setup
-```
-yarn install
-```
+# Installation
+## Vue Support
+Supports Vue >= 2
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Installation and Usage
+`npm install vue-nipple --save`
 
-### Compiles and minifies for production
 ```
-yarn build
-```
+import Nipple from 'vue-nipple';
 
-### Lints and fixes files
-```
-yarn lint
+Vue.component('vue-nipple', Nipple)
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Contributing
+Open and issue for bugs or future requests regarding the Vuejs component. Pull requests are welcome. Reference the issue in the PR. For NippleJS bugs or feature requests following the contribution guide for [yoannmoinet's nipplejs](https://github.com/yoannmoinet/nipplejs)
