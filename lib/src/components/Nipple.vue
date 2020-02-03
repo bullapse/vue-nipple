@@ -163,7 +163,6 @@ export default Vue.extend({
 </script>
 <style>
 .nipple {
-  left: 100%;
   width: 100%;
 }
 </style>
